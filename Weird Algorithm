@@ -1,1 +1,89 @@
+# Using Python
 
+n = int(input())  #taking input of n
+
+def callback(n):
+    while n !=1:
+        if n % 2 == 0:
+            n = n//2
+            print(n,end = " ")
+        else:
+            n = 3*n + 1
+            print(n, end = " ")
+
+callback(n)
+
+
+// Using Java
+
+import java.util.*;
+class Main { 
+  public static void main(String args[]) { 
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+    while(n !=1){
+        if(n % 2 == 0){
+            n = n/2;
+            System.out.println(n + " ");
+        }
+        else{
+            n = 3*n + 1;
+            System.out.println(n + " ");
+        }
+    }
+  } 
+}
+
+
+//Using JavaScript
+
+var n = prompt("Enter value of n: ");
+
+while(n !=1){
+    if(n % 2 === 0){
+        n = n/2;
+        console.log(n + " ");
+    }
+	else{
+        n = 3*n + 1;
+        console.log(n + " ");
+    }
+}
+
+
+//Using C++
+
+#include <iostream>
+
+int main() {
+    int n;
+    std::cin >>n;
+    while(n !=1){
+        if(n % 2 == 0){
+            n = n/2;
+            std::cout<<n<<" ";
+        }
+    	else{
+            n = 3*n + 1;
+            std::cout<<n<<" ";
+        }
+    }
+    return 0;
+}
+
+
+// Using PHP
+<?php
+$n = readline("Enter value of n: ");
+
+while($n != 1){
+    if($n % 2 == 0){
+        $n = $n / 2;
+        echo $n." ";
+    }
+    else{
+        $n = $n*3 + 1;
+        echo $n." ";
+    }
+}
+?>
