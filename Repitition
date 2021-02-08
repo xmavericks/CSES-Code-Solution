@@ -1,0 +1,19 @@
+Problem Statement - You are given a DNA sequence: a string consisting of characters A, C, G, and T. Your task is to find the longest repetition in the sequence.
+This is a maximum-length substring containing only one type of character.
+Example - ATTCGGGAGGGGAAATTTTTA
+Output - 5 - as TTTTT is longest singular pattern
+
+#Using Python:
+
+dna = input()
+count = 0
+li = []
+
+for i in range(len(dna)-1):
+    if dna[i] == dna[i+1]:
+        count +=1
+        li.append(count)
+    else:
+        count = 1
+        li.append(count)
+print(max(li))
