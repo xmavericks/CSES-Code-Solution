@@ -1,0 +1,20 @@
+Question - You are given all numbers between 1,2,…,n except one. Your task is to find the missing number.
+example - user takes 6 input as 5, 4, 3, 2, 6 - > in this 1 is missing so output should be 1
+
+Solution Approach:
+1. Take all the input of the number and sum them
+2. As we know, sum of all the integers till n is  - (n*(n+1))/2
+3. Since, one number is missing in step 1 and that number can be extracted from substracting total sum(in step 2) - user sum(in step 1)
+
+
+#Using Python
+n = int(input())
+li = []
+
+for i in range(n-1):
+    b =int(input())
+    li.append(b)
+liSum = sum(li)
+missingNumber = (n*(n+1))//2 - liSum
+
+print(missingNumber)
