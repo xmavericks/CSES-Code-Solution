@@ -2,16 +2,13 @@
 
 n = int(input())  #taking input of n
 
-def callback(n):
-    while n !=1:
-        if n % 2 == 0:
-            n = n//2
-            print(n,end = " ")
-        else:
-            n = 3*n + 1
-            print(n, end = " ")
-
-callback(n)
+while n !=1:
+if n % 2 == 0:
+    n = n//2
+    print(n,end = " ")
+else:
+    n = 3*n + 1
+    print(n, end = " ")
 
 
 // Using Java
