@@ -3,7 +3,7 @@ On each move, you may increase the value of any element by one. What is the mini
 
 Solution:
 
-n = int(input())
+n = int(input("Enter size of an Array: "))
 count = 0
 l = []
 
@@ -19,3 +19,10 @@ for i in range(0,n):
 print("Total steps required to make it increasing array is: "+str(count))
 
 Output:
+Enter size of an Array: 5
+2
+1
+3
+0
+5
+Total steps required to make it increasing array is: 4
