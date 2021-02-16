@@ -3,7 +3,6 @@ On each move, you may increase the value of any element by one. What is the mini
 
 Solution:
 
-#Using Python
 n = int(input())
 count = 0
 l = []
@@ -17,4 +16,6 @@ for i in range(0,n):
         if l[i] > l[j]:
            l[i], l[j] = l[j], l[i]
            count +=1
-print(count)
+print("Total steps required to make it increasing array is: "+str(count))
+
+Output:
