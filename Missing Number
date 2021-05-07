@@ -16,5 +16,4 @@ for i in range(n-1):
     li.append(b)
 liSum = sum(li)
 missingNumber = (n*(n+1))//2 - liSum
-
 print(missingNumber)
