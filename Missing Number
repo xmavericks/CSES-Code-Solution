@@ -6,7 +6,6 @@ Solution Approach:
 2. As we know, sum of all the integers till n is  - (n*(n+1))/2
 3. Since, one number is missing in step 1 and that number can be extracted from substracting total sum(in step 2) - user sum(in step 1)
 
-\
 #Using Python
 n = int(input())
 li = []
