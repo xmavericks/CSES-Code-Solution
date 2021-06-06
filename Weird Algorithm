@@ -8,7 +8,7 @@ For example, the sequence for n=3 is as follows:	3→10→5→16→8→4→2→1
 Your task is to simulate the execution of the algorithm for a given value of n
 
 
-
+---------------------------------------------------------------- PROGRAM in Multiple Languages---------------------------------------------------------------------------------
 # Using Python
 n = int(input())  #taking input of n
 
