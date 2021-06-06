@@ -2,6 +2,7 @@
 
 n = int(input())  #taking input of n
 
+print(n)
 while n !=1:
 	if n % 2 == 0:
 		n = n//2
