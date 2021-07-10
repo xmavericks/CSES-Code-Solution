@@ -3,6 +3,7 @@ This is a maximum-length substring containing only one type of character.
 Example - ATTCGGGAGGGGAAATTTTTA
 Output - 5 - as TTTTT is longest singular pattern
 
+
 #Using Python:
 
 dna = input()
